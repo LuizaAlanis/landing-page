@@ -2,7 +2,7 @@
 
 <img src="./public/capa.png" alt="Globetek landing page"/>
 
-## 🚀 Instalando Xbox-challenge
+## 🚀 Clonando o projeto
 
 Para instalar o projeto, siga estas etapas:
 
