@@ -26,7 +26,7 @@ function App() {
       <ul>
         <li><a>Privacy Policy</a></li>
         <li><a>Terms of service</a></li>
-        <li><button className="button">Contact us</button></li>
+        <li><a href="#form"><button className="button">Contact us</button></a></li>
       </ul>
     </nav>
     
@@ -123,6 +123,7 @@ function App() {
             <iframe className="responsive-iframe"  src="https://www.youtube.com/embed/Vy5eidrLIIk" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
           </div>
 
+          <div id="form"></div>
           <div className="form-container">
             <form className="contact-form">
               <legend className="form-title">Contact US</legend>
