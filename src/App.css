@@ -628,3 +628,7 @@ a.active, a:hover {
   height: 100%;
 }
 
+a{
+  all: unset;
+}
+

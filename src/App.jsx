@@ -24,8 +24,8 @@ function App() {
         <i className="fa fa-bars"></i>
       </label>
       <ul>
-        <li><a>Privacy Policy</a></li>
-        <li><a>Terms of service</a></li>
+        <li><a href="#">Privacy Policy</a></li>
+        <li><a href="#">Terms of service</a></li>
         <li><a href="#form"><button className="button">Contact us</button></a></li>
       </ul>
     </nav>
@@ -174,8 +174,8 @@ function App() {
             
             <div className="darker-detail">
               <div>
-                <p><b className="accent">Privacy Policy</b></p>
-                <p><b className="accent">Terms and conditions</b></p>
+                <a href="#"><b className="accent">Privacy Policy</b></a>
+                <a href="#"><b className="accent">Terms and conditions</b></a>
               </div>
 
               <p>© Globetek Holdings, LLC | All Rights Reserved.</p>
