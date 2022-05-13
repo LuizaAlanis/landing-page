@@ -294,6 +294,44 @@ body, button{
   font-size: 70px;
 }
 
+@media(max-width: 1000px) {
+  .footer-container{
+    padding-top: 20px;
+  }
+
+  .left{
+    padding-left: 10px;
+  }
+
+  .footer-content{
+    margin: 0px 0px 0px 10px!important;
+    padding: 0!important;
+    display: flex; 
+    flex-direction: column;
+    justify-content: left;
+    width: 100%;
+    gap: 10px;
+  }
+
+  .android{
+    margin: 0 auto;
+    max-width: 300px;
+  }
+
+  .darker-detail{
+    height: auto;
+    text-align: center;
+  }
+
+  .darker-detail div, .darker-detail{
+    display:flex;
+    flex-direction: column;
+    gap: 2px;
+    padding: 0;
+    margin: 0;
+  }
+}
+
 .line{
   width: 101px;
   height: 4px;
@@ -307,9 +345,8 @@ body, button{
 }
 
 .footer-content{
-  display: grid;
+  display: flex;
   margin-left: 150px;
-  grid-template-columns: 1fr 1fr 1fr;
   margin-right: 150px;
   gap: 100px;
 }
@@ -389,6 +426,18 @@ a.active, a:hover {
   display: none;
 }
 
+@media(max-width: 600px){
+  .pink-rounded-background{
+    width: 200px;
+    height: 200px;
+  }
+
+  .mobile-art{
+    background-image:url(./images/our_partners.png);
+    background-size: contain;
+  }
+}
+
 @media(max-width:1067px) {
   label.logo {
     font-size: 30px;
@@ -462,6 +511,11 @@ a.active, a:hover {
 
 
 @media(max-width: 1000px) {
+
+  .pink-rounded-background{
+    height: 300px;
+    width: 300px;
+  }
 
   .primary-landing-container{
     display: flex; 
@@ -548,6 +602,10 @@ a.active, a:hover {
   .form-body{
     display: flex;
     flex-direction: column;
+  }
+
+  .mobile-art{
+    background-image:url(./images/background-desktop.png);
   }
 }
 
